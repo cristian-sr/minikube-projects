@@ -1,0 +1,25 @@
+helm upgrade -i flux \
+--set helmOperator.create=true \
+--set helmOperator.createCRD=false \
+--set git.url=git@github.com:cristian-sr/minikube-projects.git \
+--set git.branch=master \
+--set git.path=development \
+--set git.pullInterval=1m \
+--namespace flux \
+fluxcd/flux
+
+
+
+---
+github -cristian-sr token
+db538d5575ede2d89a690c0890ec598c4dfb4946
+
+---
+keys on github 
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDL5DiHLe7+vuaCt/PzvwEnwq0OpaCMbNKue+3gPntqvBcXN2Npiz9ivNIGoO+bHl0eId/x6GRJlF569HcQlQnopdW9CcbtxEO86FsolFwIbQU3YnXlFMagO8/Lxr/KlWo6rgJaRtGL3toChS96+KTy7zGI47exl1vK9E4GqyQXyuxbNDQmSd/ZEodvLAspeH6lmZYj4KRIrKRjP92F5x5F2Nffe5Ilr7fOBgStLIZ1Epz76PMxi2jISt2FVTGWpVfsvXYEG+40/eRFBfmfirNw9V33efnipKnTQ3B9JVpOGJ9bwDlxdgG/BS+7x3/mOlLsnt7CDd/A4smmia34LhZd
+
+---
+vscode token
+vscode://github.vscode-pull-request-github/did-authenticate?windowId=3&code=eb87425b42b2857022cd&state=ca8d4247-771e-4e75-8c9b-57b64a40a783
+
