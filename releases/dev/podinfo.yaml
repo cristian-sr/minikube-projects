@@ -13,6 +13,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
+    registry: docker.io
     image: cristiansr/podinfo:dev-pgtq1ibz
     replicaCount: 1
     hpa:
