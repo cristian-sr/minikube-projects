@@ -248,7 +248,7 @@ Specify each parameter using the `--set key=value[,key=value]` argument to `helm
 
 ```text
 helm upgrade --install --wait flux \
---set git.url=git@github.com:stefanprodan/k8s-podinfo \
+--set git.url=git@github.com:cristian-sr/k8s-podinfo \
 --set git.path="deploy/auto-scaling\,deploy/local-storage" \
 --namespace flux \
 fluxcd/flux
